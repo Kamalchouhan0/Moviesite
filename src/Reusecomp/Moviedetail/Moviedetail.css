@@ -1,0 +1,75 @@
+.Movdetail_card {
+  height: 90%;
+  width: 80%;
+  /* border: 1px solid red; */
+  display: grid;
+  margin: 5% 0% 0% 10%;
+  /* background-image:url(/src/Pics/avenger.jpg); */
+  background-size: 80vw 90vh;
+  background-repeat: no-repeat;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+}
+
+.Mov_Inform {
+  color: white;
+  background-color: rgb(51, 47, 47);
+  opacity: 0.9;
+  display: grid;
+  grid-template-rows: 20% 20% 5% 25% 7% 5% 18%;
+  grid-template-columns: 100%;
+  /* border: 1px solid rgb(166, 255, 0); */
+}
+
+.Mov_name {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  align-self: center;
+  text-transform: uppercase;
+}
+.Mov_due {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+
+  font-weight: bold;
+}
+.year li {
+  text-align: center;
+}
+
+.Mov_story {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 100%;
+}
+
+.Mov_Btn {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.Like_btn {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 10% 5% 10% 5% 10% 30%;
+  grid-template-rows: 100%;
+}
+.Mov_dis {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: 100%;
+  text-align: center;
+  font-weight: bold;
+}

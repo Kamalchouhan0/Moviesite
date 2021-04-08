@@ -1,0 +1,32 @@
+
+    .Footer_Main{
+        height: 30%;
+        width: 100%;
+    
+    }
+    .Footer{
+        height: 80%;
+    width: 87%;
+    display: grid;
+   margin:10% 0% 0% 5% ;
+    /* border: 1px solid green; */
+    grid-template-columns:10% 20% repeat(5,10%) 20%;
+    grid-template-rows: 100%;
+    color:white;
+    align-items: center;
+    text-align: center;
+    }
+
+    .Footer_title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .Icon{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,40%);
+        grid-template-rows: 100%;
+        align-items: center;
+    }

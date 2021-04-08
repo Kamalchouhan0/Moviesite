@@ -1,0 +1,17 @@
+.Movielist_Main{
+    height: 100%;
+    width: 100%;   
+    
+}
+.Margin_list{
+    height: 100%;
+    width: 90%;
+    display: grid;
+    background: rgb(7, 6, 6);
+    margin: 2% 0% 0% 5% ;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(2,50%);
+
+    column-gap: 5px;
+    row-gap: 25px;
+}
